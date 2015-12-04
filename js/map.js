@@ -7,8 +7,7 @@
 
 			  function setCenter() {
 			    //In this case it gets the address from an element on the page, but obviously you  could just pass it to the method instead
-			    //var address = document.getElementById("search_addr").value;
-			    var address = "7 rue veillon Nice ";
+			    var address = document.getElementById("search_addr").value;
 			    geocoder.geocode( { 'address': address}, function(results, status) {
 			      if (status == google.maps.GeocoderStatus.OK) {
 			        maCarte.setCenter(results[0].geometry.location);
