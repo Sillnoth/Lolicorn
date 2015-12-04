@@ -1,6 +1,5 @@
 <?php
 include "./static/Header.html";
-include "service_dispo_vue.php";
 ?>
 <div class="row">
     <div class="col-sm-offset-2 col-sm-8"onload="init()">
