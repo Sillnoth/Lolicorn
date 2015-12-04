@@ -3,11 +3,12 @@ include "./static/Header.html";
 include "service_dispo_vue.php";
 ?>
 <div class="row">
-    <div class="col-sm-offset-2 col-sm-8">
+    <div class="col-sm-offset-2 col-sm-8"onload="init()">
       	<div class="input-group">
-	      <input id="search_addr" type="text" class="form-control" placeholder="Adresse">
+	      <input type="text" id="search_addr" class="form-control" placeholder="Adresse">
+
 	      <span class="input-group-btn">
-	        <button class="btn btn-default" type="button">Go!</button>
+	        <button class="btn btn-default" id="search" type="button" onclick="setCenter()">Go!</button>
 	      </span>
     	</div><!-- /input-group -->
 	</div>
