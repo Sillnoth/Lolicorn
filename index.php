@@ -6,11 +6,9 @@ include './inc/basic_print.inc';
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 <head>
-    <title>Nom de l'application</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/css.css" rel="stylesheet">
-    <script src="bootstrap/js/jquery-2.1.4.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <?php
+    print_head();
+    ?>
 </head>
 <body>
 
