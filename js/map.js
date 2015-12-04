@@ -15,8 +15,6 @@ function setCenter() {
 			maCarte.setCenter(results[0].geometry.location);
 			maCarte.setZoom(8);
 
-		} else {
-			alert("Geocode was not successful for the following reason: " + status);
 		}
 	});
 }
