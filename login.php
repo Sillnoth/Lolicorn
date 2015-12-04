@@ -32,8 +32,6 @@ include "./static/Header.html";
         </form>
     </div>
 </div>
-
-</div> <!--container-->
-
-</body>
-</html>
+<?php
+include "./static/Footer.html";
+?>

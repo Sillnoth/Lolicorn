@@ -9,11 +9,14 @@ include "./static/Header.html";
 	        <button class="btn btn-default" type="button">Go!</button>
 	      </span>
     	</div><!-- /input-group -->
-
-    	<div id = "carte">
+	</div>
+</div>
+<div class="row">
+    <div class="col-sm-offset-2 col-sm-8">
+    	<div id = "carte" style="height:300px;">
     	</div>
     </div>
-
 </div>
-</body>
-</html>
+<?php
+include "./static/Footer.html";
+?>
