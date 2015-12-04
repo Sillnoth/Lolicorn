@@ -1,5 +1,6 @@
 <?php
 include "./static/Header.html";
+include "service_dispo_vue.php";
 ?>
 <div class="row">
     <div class="col-sm-offset-2 col-sm-8">
@@ -16,6 +17,12 @@ include "./static/Header.html";
     	<div id = "carte" style="height:300px;">
     	</div>
     </div>
+</div>
+<div class="row">
+    <div class="col-sm-offset-2 col-sm-8">
+
+<?php echo getVue("13 rue de mon cul", "manger", "4"); ?>
+	</div>
 </div>
 <?php
 include "./static/Footer.html";
