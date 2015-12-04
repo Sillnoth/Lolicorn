@@ -24,7 +24,7 @@ include "./static/Header.html";
 
             <div class="form-group">
                 <button id="btn_inscription" type="submit" class="btn btn-default"
-                    onclick="window.location.href='/inscription.php'">
+                    onclick="window.location.href='./inscription.php'">
                     Inscription
                 </button>
             </div>
