@@ -1,10 +1,12 @@
 <?php
 include "./static/Header.html";
+include "service_dispo_vue.php";
 ?>
 <div class="row">
     <div class="col-sm-offset-2 col-sm-8"onload="init()">
       	<div class="input-group">
 	      <input type="text" id="search_addr" class="form-control" placeholder="Adresse">
+
 	      <span class="input-group-btn">
 	        <button class="btn btn-default" id="search" type="button" onclick="setCenter()">Go!</button>
 	      </span>
@@ -16,6 +18,12 @@ include "./static/Header.html";
     	<div id = "carte" style="height:300px;">
     	</div>
     </div>
+</div>
+<div class="row">
+    <div class="col-sm-offset-2 col-sm-8">
+
+<?php echo getVue("13 rue de mon cul", "manger", "4"); ?>
+	</div>
 </div>
 <?php
 include "./static/Footer.html";
