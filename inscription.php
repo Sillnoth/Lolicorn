@@ -17,9 +17,16 @@ include "./static/Header.html";
             </div>
 
             <div class="form-group">
-                <button id="btn_login" type="submit" class="btn btn-default">
-                    Se connecter
-                </button>
+                <label for="password">Telephone:</label>
+                <input required="true" type="telephone" id="telephone" type="text" class="form-control" placeholder="Telephone">
+            </div>
+            <div class="form-group">
+                <label for="password">Nom:</label>
+                <input required="true" type="nom" id="nom" type="text" class="form-control" placeholder="Nom">
+            </div>
+            <div class="form-group">
+                <label for="password">Prenom:</label>
+                <input required="true" type="prenom" id="prenom" type="text" class="form-control" placeholder="Prenom">
             </div>
 
             <div class="form-group">
