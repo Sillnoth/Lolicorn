@@ -18,10 +18,12 @@ include "service_dispo_vue.php";
     	</div>
     </div>
 </div>
-<div class="row">
-    <div class="col-sm-offset-2 col-sm-8">
+<div class="row" >
+    <div class="col-sm-offset-2 col-sm-8" id="content_vues">
 
-<?php echo getVue("13 rue de mon cul", "manger", "4"); ?>
+	<script>
+		$("#content_vues").append(getVue("13 rue de mon cul", "manger", "4", "6","Chouette endroit de la mort vient on est bien ouech"));
+	</script>
 	</div>
 </div>
 <?php
