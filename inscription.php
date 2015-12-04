@@ -21,6 +21,12 @@ include "./static/Header.html";
                 <input required="true" name="tel" id="tel" type="text" class="form-control" placeholder="Telephone">
             </div>
             <div class="form-group">
+              <select class="selectpicker" name="genre">
+                <option>M</option>
+                <option>F</option>
+              </select>
+            </div>
+            <div class="form-group">
                 <label for="password">Nom:</label>
                 <input required="true" name ="nom"  id="nom" type="text" class="form-control" placeholder="Nom">
             </div>
