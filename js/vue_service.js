@@ -1,4 +1,4 @@
-function getVue(address, type, placeRestantes, placeTotale, description){
+function getVue(address, type, placeRestantes, placeTotale, description, id){
 	var result;
 	result =  "<div class='row panel panel-default'>";
   	result += "<div class='panel-body'>";
@@ -25,7 +25,10 @@ function getVue(address, type, placeRestantes, placeTotale, description){
 
 
 	result += "<div class='col-xs-2'>";
-	result += "<button type='button' class='btn btn-block'><span class='glyphicon glyphicon-ok'></span></button></div>";
+	result += "<form> <input style='display:none' name='id' value='"+id+"'/>"+
+			"<button type='button' class='btn btn-block'>"+
+				"<span class='glyphicon glyphicon-ok'></span>"+
+				"</button></form></div>";
 	result +="</div></div>";
 
 	return result;

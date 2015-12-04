@@ -23,7 +23,7 @@ include "service_dispo_vue.php";
     <div class="col-sm-offset-2 col-sm-8" id="content_vues">
 
 	<script>
-		$("#content_vues").append(getVue("13 rue de mon cul", "manger", "4", "6","Chouette endroit de la mort vient on est bien ouech"));
+		$("#content_vues").append(getVue("13 rue de mon cul", "manger", "4", "6","Chouette endroit de la mort vient on est bien ouech", 3));
 	</script>
 	</div>
 </div>

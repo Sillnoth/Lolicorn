@@ -29,9 +29,13 @@
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                     </ul>
+                    <?php
+                    if (!isset($_SESSION["EST_CO"])){?>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="./login.php"><span class="glyphicon glyphicon-log-in"></span> Se Connecter</a></li>
-                    </ul>
+                    </ul><?php
+                    }
+                    ?>
                 </div>
             </div>
         </nav>

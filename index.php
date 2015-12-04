@@ -1,5 +1,5 @@
 <?php
-include "./static/Header.html";
+include "./static/Header.php";
 ?>
 <div class="row">
     <div class="col-sm-offset-3 col-sm-6">
