@@ -1,3 +1,6 @@
+<?php
+include './inc/basic_print.inc';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +12,6 @@
 </head>
 <body>
 <?php
-include './inc/basic_print.inc';
-
 print_nav();
 ?>
 

@@ -1,3 +1,6 @@
+<?php
+include './inc/basic_print.inc';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +12,9 @@
 </head>
 
 <body>
-<div class="container">
+<?php
+print_nav();
+?>
     <form role="form">
 
     <div class="form-group">
@@ -23,7 +28,7 @@
     </div>
 
     <div class="form-group">
-        <button id="btn_login" type="button" class="btn btn-default">
+        <button id="btn_login" type="submit" class="btn btn-default">
             Login
         </button>
         <button id="btn_forgot" type="button" class="btn btn-default">
@@ -32,7 +37,7 @@
     </div>
 
     <div class="form-group">
-        <button id="btn_inscription" type="button" class="btn btn-default">
+        <button id="btn_inscription" type="submit" class="btn btn-default">
             Inscription
         </button>
     </div>
